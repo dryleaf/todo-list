@@ -1,0 +1,90 @@
+@import "~antd/dist/antd.css";
+
+.card-container {
+  background: #CF9BC5;
+  border-bottom: 1px solid #ebedf0;
+  color: rgba(0, 0, 0, 0.65);
+  display: table;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.card-container > .ant-tabs-card {
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 320px;
+}
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  background: #fff;
+  height: 408px;
+  margin-top: -16px;
+}
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+.card-container > .ant-tabs-card .ant-tabs-nav-container-scrolling {
+  padding: 0;
+}
+.card-container > .ant-tabs-card .ant-tabs-nav-container-scrolling > .ant-tabs-tab-arrow-show {
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+}
+.card-container > .ant-tabs-card .ant-tabs-nav-container-scrolling .ant-tabs-tab {
+  background: #fafafa;
+}
+.card-container > .ant-tabs-card .ant-tabs-nav-container-scrolling .ant-tabs-tab-active {
+  background: #fff;
+}
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+  margin: 0;
+}
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container {
+  height: 60px;
+}
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-nav {
+  width: 100%;
+}
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border: 1px solid #f0f0f0;
+  border-radius: 0;
+  height: 60px;
+  line-height: 57px;
+  margin: 0;
+  text-align: center;
+  width: 50%;
+}
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  margin: 0;
+  padding: 20px 0;
+}
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  height: 93%;
+  overflow-y: auto;
+  padding: 0 20px!important;
+}
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+}
+.card-container .ant-input-group-wrapper {
+  vertical-align: bottom;
+  width: 320px;
+}
+.card-container .ant-input-wrapper {
+  bottom: 42px;
+}
+.card-container .ant-input {
+  height: 52px;
+}
+.card-container .add-button {
+  font-size: 25px;
+  font-weight: 600;
+  height: 50px;
+  width: 50px;
+}
