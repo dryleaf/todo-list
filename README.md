@@ -2,7 +2,7 @@ This is a simple todo list web app
 
 ## Overview
 - This web app is completely developed using ReactJS.
-- [Demo](todo-list.josimar-lopes.surge.sh)
+- [Demo](http://todo-list.josimar-lopes.surge.sh)
 
 ## Features
 1. User can add new tasks
